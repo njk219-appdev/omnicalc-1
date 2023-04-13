@@ -7,7 +7,7 @@
     APR
   </dt>
   <dd>
-    <%= @apr.round(2)%>%
+    <%= @apr.round(4)%>%
   </dd>
 
   <dt>
@@ -21,7 +21,7 @@
     Principal
   </dt>
   <dd>
-    $<%=@principal.round(2)%>
+    <%=@principal.to_s(:currency)%>
   </dd>
 
   <dt>
